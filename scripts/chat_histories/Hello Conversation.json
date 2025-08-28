@@ -1,0 +1,19 @@
+{
+  "session_name": "Hello Conversation",
+  "timestamp": "2025-08-28T23:09:13.049382",
+  "messages": [
+    {
+      "role": "assistant",
+      "content": "Hey, I'm Arcana, your Indexademics AI assistant. Ask me anything about your indexed files!"
+    },
+    {
+      "role": "user",
+      "content": "hello"
+    },
+    {
+      "role": "assistant",
+      "content": "Hello! I'm Arcana, your friendly Indexademics AI assistant. How can I help you today? 😊"
+    }
+  ],
+  "processed_file_name": null
+}
