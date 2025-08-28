@@ -1,14 +1,14 @@
 ![MIT License](https://img.shields.io/badge/license-CC.BY.ND.SA-green.svg)
-![ArcanaLTE Version](https://img.shields.io/badge/version-ArcanaExtreme%201.0Beta3-black)
+![ArcanaLTE Version](https://img.shields.io/badge/version-ArcanaExtreme%201.1Beta9-black)
 ![Development Status](https://img.shields.io/badge/status-Beta-orange)
 ![Built with Streamlit](https://img.shields.io/badge/built%20with-Streamlit-ff4b4b?logo=streamlit)
-![Powered by StandardCAS](https://img.shields.io/badge/powered%20by-StandardCAS™-purple)
+![Powered by StandardCAS](https://img.shields.io/badge/built%20by-StandardCAS™-purple)
 
 ---
 
 # 🌌 Welcome to Arcana Extreme  
-✨ By the Indexademics Team | Powered by StandardCAS™
-[*Version 1.0 Beta 03 (2025-07-04)*]
+✨ By StandardCAS™ Neon Group | ArcanaExtreme Standalone Version
+[*Version 1.1 Beta 09 (2025-08-28)*]
 
 --- 
 ## 📚 Table of Contents
@@ -348,3 +348,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 **Made with ❤️ by the Arcana Team**
 
 *Transform your documents into intelligent conversations with Arcana Extreme!*
+
