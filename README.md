@@ -1,6 +1,6 @@
 # 🌌 Arcana Extreme
 
-✨ Developed by **StandardCAS™ Neon Group** | *Standalone *
+✨ Developed by **StandardCAS™ Neon Group** | *Standalone*
 **Version 1.1 Beta 09 (2025-08-28)**
 
 ![MIT License](https://img.shields.io/badge/license-CC.BY.ND.SA-green.svg)
@@ -158,4 +158,5 @@ streamlit run ArcanaExtreme.py
 
 Recommendation: Keep the revised structure—it balances professionalism with approachability.
 Next step: Replace the original README section with this refined version for clarity and stronger impact.
+
 
