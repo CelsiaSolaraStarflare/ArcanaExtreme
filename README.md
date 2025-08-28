@@ -158,11 +158,3 @@ streamlit run ArcanaExtreme.py
 
 Recommendation: Keep the revised structure—it balances professionalism with approachability.
 Next step: Replace the original README section with this refined version for clarity and stronger impact.
-
-| Question                                                  | Choices                                                                         | Answer                  | Hint                                                   |
-|:----------------------------------------------------------|:--------------------------------------------------------------------------------|:------------------------|:-------------------------------------------------------|
-| What is Arcana Extreme?                                   | A game engine | A study resource hub | A social media app | A streaming service | A study resource hub    | It helps students with documents and AI-powered study. |
-| Which framework is Arcana Extreme built with?             | React | Flask | Streamlit | Django                                              | Streamlit               | It uses an interactive Python app framework.           |
-| What new feature creates flashcards automatically?        | Theta Editor | Q&A Flashcard Generator | Study Guide Generator | FiberDBMS      | Q&A Flashcard Generator | It makes study Q&A pairs.                              |
-| Which component powers document search in Arcana Extreme? | TensorFlow | FiberDBMS | PyTorch | NLTK                                         | FiberDBMS               | It is a custom database management system.             |
-| What does the Theta editor provide?                       | Audio transcription | Slide editing | Database indexing | Chatbot conversations | Slide editing           | It is for creating visual presentations.               |
