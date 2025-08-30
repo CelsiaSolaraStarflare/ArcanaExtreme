@@ -1,8 +1,14 @@
 import os
 import streamlit as st
 import shutil
-from arcana.indexing import indexing
-from scripts.config import CACHE_DIR, INDEX_FILE
+# Defer heavy imports to runtime to avoid import-time failures
+try:
+    from scripts.config import CACHE_DIR, INDEX_FILE  # type: ignore
+except Exception:
+    # Fallback: derive cache dir relative to repository if scripts.config isn't importable
+    BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), os.pardir))
+    CACHE_DIR = os.path.join(BASE_DIR, "cache")
+    INDEX_FILE = os.path.join(BASE_DIR, "data", "arcana_index.csv")
 from arcana.fiber import FiberDBMS
 
 def move_file(current_path, item, selected_folder, new_folder_name=""):
@@ -213,6 +219,12 @@ def files_page():
     st.info("Re-indexing is required after moving, renaming, or uploading files to ensure the chatbot can find them.")
     if st.button("Re-Index All Files", help="Click here to process all files in the Finder and update the search database. This can take a moment."):
         with st.spinner("Indexing in progress... Please wait."):
+            # Import indexing lazily to avoid module import errors at app startup
+            try:
+                from arcana.indexing import indexing  # type: ignore
+            except Exception as e:
+                st.error(f"Indexing is unavailable: {e}. Ensure dependencies are installed and PYTHONPATH includes project root.")
+                return
             entry_count = indexing(CACHE_DIR)
             
             # Use the existing dbms instance from session_state to reload the data
